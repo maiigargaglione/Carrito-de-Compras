@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div class="pb-10" id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                        <div class="contenido-hero">
+                        
+                            <h2>Escucha The Beatles</h2>
+                                
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría escuchar?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+  
+
+    <div id="lista-cursos" class="pt-10 container">
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/al.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>The Beatles: 1964 Albums In Mono</h4>
+                        <p>The Beatles</p>
+                        
+                        <p class="precio"> <span class="u-pull-right ">$509.250,00</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/bs2.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>The Beatles: 1962-1966 & The Beatles 1967-1970 (2023 Edition) 6LP
+                            </h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio"> <span class="u-pull-right ">$249.900,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/bs3.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>The Beatles The U.S. Albums CD Box Set</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio">  <span class="u-pull-right ">$470.656,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/al3.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>A Hard Day’s Night (Original Motion Picture Sound Track) 1LP
+                        </h4>
+                        <p>The Beatles</p>
+                        
+                        <p class="precio">  <span class="u-pull-right ">$
+                            105.526,00</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/al5.avif" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Meet The Beatles! 1LP</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio">  <span class="u-pull-right ">$
+                                19.749,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/al2.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>The Beatles' Second Album 1LP</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio">  <span class="u-pull-right ">$132.407,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/cd1.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>The Beatles: 1967-1970 (2023 Edition) 2CD</h4>
+                        <p>The Beatles</p>
+                        
+                        <p class="precio"><span class="u-pull-right ">$41.550,00</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/cd2.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>The Beatles: 1962-1966 (2023 Edition) 2CD</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio"><span class="u-pull-right ">$45.550,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/cd3.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Revolver Special Edition 2CD (Remastered)</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio"><span class="u-pull-right ">$76.840,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/o1.webp" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Crosley x The Beatles Anthology Portable Turntable</h4>
+                            <p>The Beatles</p>
+                            
+                            <p class="precio"><span class="u-pull-right ">$155.95,00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/o2.webp" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Crosley x The Beatles Let It Be Anthology Portable Turntable</h4>
+                                <p>The Beatles</p>
+                                
+                                <p class="precio"><span class="u-pull-right ">$153.86,00</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/o3.webp" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Crosley x The Beatles Let It Be Anthology Portable Turntable - Black</h4>
+                                <p>The Beatles</p>
+                                
+                                <p class="precio"><span class="u-pull-right ">$159.25,00</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns">
+                            <nav id="principal" class="menu">
+                                <a class="enlace" href="#">Para tu Negocio</a>
+                                <a class="enlace" href="#">Conviertete en Instructor</a>
+                                <a class="enlace" href="#">Aplicaciones Móviles</a>
+                                <a class="enlace" href="#">Soporte</a>
+                                <a class="enlace" href="#">Temas</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                            <nav id="secundaria" class="menu">
+                                <a class="enlace" href="#">¿Quienes Somos?</a>
+                                <a class="enlace" href="#">Empleo</a>
+                                <a class="enlace" href="#">Blog</a>
+                            </nav>
+                    </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
